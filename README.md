@@ -2,7 +2,7 @@
 
 A longitudinal three-degree-of-freedom flight dynamics model of the Cessna-182, built in Python. The project covers trimming the aircraft across its speed envelope and simulating its dynamic response to an elevator doublet input.
 
-![Animation](path/to/animation.gif)
+
 
 ---
 
@@ -48,7 +48,7 @@ Aerodynamic forces and moments are computed from stability and control derivativ
 
 The XDSM diagram below shows how data flows between the model components (atmosphere, aerodynamics, propulsion, equations of motion, trim solver and integrator).
 
-![XDSM diagram](path/to/xdsm.png)---
+
 
 ## Results
 
@@ -65,33 +65,9 @@ The XDSM diagram below shows how data flows between the model components (atmosp
 
 ---
 
-## Repository Structure
 
-```
-cessna-longitudinal-3dof/
-├── [main.py]            # Runs trim analysis and doublet simulation
-├── [aircraft_data.py]   # Aerodynamic, inertial and geometric data
-├── [dynamics.py]        # Equations of motion
-├── [trim.py]            # Trim solver
-├── [atmosphere.py]      # ISA model
-├── [plots/]             # Result figures
-└── README.md
-```
 
----
 
-## How to Run
-
-**Requirements:** Python 3.x, NumPy, SciPy, Matplotlib
-
-```bash
-git clone https://github.com/ozgeisler/cessna-longitudinal-3dof.git
-cd cessna-longitudinal-3dof
-pip install numpy scipy matplotlib
-python [main.py]
-```
-
----
 
 ## Acknowledgments
 
