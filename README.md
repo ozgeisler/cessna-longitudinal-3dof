@@ -48,21 +48,18 @@ Aerodynamic forces and moments are computed from stability and control derivativ
 
 The XDSM diagram below shows how data flows between the model components (atmosphere, aerodynamics, propulsion, equations of motion, trim solver and integrator).
 
-![XDSM diagram](path/to/xdsm.png)
-
----
+![XDSM diagram](path/to/xdsm.png)---
 
 ## Results
 
 ### Trim envelope (5000 ft, TAS 30–80 m/s)
 
-![Trim results](path/to/trim_plot.png)
 
 [Add 1–2 sentences on what the trim curves show, e.g. how angle of attack and elevator deflection change with airspeed.]
 
 ### Elevator doublet response (60 m/s trim)
 
-![Doublet response](path/to/doublet_plot.png)
+
 
 [Add 1–2 sentences: e.g. the short-period mode damps out within X s, and the phugoid oscillation has a period of about Y s.]
 
@@ -110,7 +107,7 @@ Many thanks to Prof. Martins and the MDO Lab for making this tool freely availab
 ## Author
 
 **Özge İşler**, Aerospace Engineer
-[GitHub](https://github.com/ozgeisler) · [LinkedIn](your-linkedin-url)
+
 
 ---
 
